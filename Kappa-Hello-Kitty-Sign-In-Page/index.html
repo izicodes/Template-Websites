@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/kitty.png" type="image/x-icon">
+
+    <title>Kitty | Sign In </title>
+</head>
+<body>
+
+    <div class="signin">
+
+        <form method="post" name="form" onsubmit="return validated()" action="welldone.html">
+
+            <h2>Sign In</h2>
+
+            <input type="text" placeholder="Enter Username" name="username" autocomplete="off">
+                <div id="username_error">please fill with your username</div>
+
+            <input type="password" placeholder="Enter Password" name="password">
+                <div id="pass_error">please fill with your password</div>
+
+            <button type="submit">Sign In</button>
+
+        </form>
+
+    </div>
+
+    <script src="valid.js"></script>
+    
+</body>
+</html>

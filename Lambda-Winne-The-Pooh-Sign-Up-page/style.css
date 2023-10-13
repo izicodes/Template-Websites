@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+    background: url('img/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #b7daeb;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.027);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7c25f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6ab3d;
+}
+
+p {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#intext {
+    font-size: 12px;
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.para-2 {
+    color: white;
+}
+
+.para-2 a {
+    color: #704b06;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/kawaii.png" type="image/x-icon">
+
+    <title>Kao & Co. | Login and Registration</title>
+</head>
+<body>
+
+    <div class="hero">
+
+        <div class="form-box">
+
+            <div class="button-box">
+
+                <div id="btn"></div>
+
+                <button type="button" class="toggle-btn" onclick="Login()">Login</button>
+                
+                <button type="button" class="toggle-btn" onclick="Register()">    Register</button>
+            
+            </div>
+
+            <div class="social-icons">
+
+                <img src="img/facebook.png" alt="facebook icon">
+                <img src="img/pinterest.png" alt="pinterest icon">
+                <img src="img/twitter.png" alt="twitter icon">
+    
+            </div>
+
+            <form  id="Login" class="input-group">
+
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+
+                <button type="submit" class="submit-btn">Login</button>
+
+            </form>
+
+            <form id="Register" class="input-group">
+
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Enter Email" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+
+                <input type="checkbox" class="check-box"><span>I agree to the Terms & Conditions</span>
+
+                <button type="submit" class="submit-btn">Register</button>
+
+            </form>
+        
+        </div>
+    
+    </div>
+
+    <script>
+
+        var x = document.getElementById("Login");
+
+        var y = document.getElementById("Register");
+
+        var z = document.getElementById("btn")
+
+        function Register(){
+            x.style.left = "-510px"
+            y.style.left = "140px"
+            z.style.left = "110px"
+        }
+
+        function Login(){
+            x.style.left = "140px"
+            y.style.left = "690px"
+            z.style.left = "0px"
+        }
+
+    </script>
+    
+</body>
+</html>

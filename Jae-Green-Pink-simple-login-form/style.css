@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: url('bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 7px #ffffff33;
+}
+
+.label {
+    padding: 20px 130px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(90deg, rgba(177,206,109,1) 0%, rgba(239,146,172,1) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.login_form {
+    padding: 20px 40px;
+}
+
+.login_form .font {
+    font-size: 18px;
+    color: #15400f;
+    margin: 5px 0;
+    position: relative;
+}
+
+.login_form .font::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #ef92ac;
+}
+
+.login_form input {
+    height: 40px;
+    width: 96%;
+    margin-top: 17px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.login_form .font2 {
+    margin-top: 30px;
+}
+
+.login_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 367px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    background: linear-gradient(90deg, #b1ce6d 0%, #ef92ac 100%);
+    border-radius: 3px;
+    border: none;
+    transition: 0.5s;
+}
+
+.login_form button:hover {
+    background: linear-gradient(90deg, #ef92ac 0%, #b1ce6d 100%);
+}
+
+.login_form #email_error,
+.login_form #pass_error {
+    margin-top: 5px;
+    width: 351px;
+    font-style: 18px;
+    color: #c92727;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #c92727;
+    display: none;
+}
