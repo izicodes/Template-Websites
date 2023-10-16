@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="shortcut icon" href="pink-heart.png" type="image/x-icon" />
+		<title>Log-in Form</title>
+	</head>
 
-        <!-- GOOGLE FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<body>
+		<div class="wrapper">
+			<h1>Login</h1>
 
+			<!-- The Form -->
+			<form method="">
+				<section id="textFieldSection">
+					<div class="txt_field">
+						<input type="text" required />
+						<label> Username </label>
+					</div>
 
-        <link rel="stylesheet" href="index.css">
-        <link rel="shortcut icon" href="pink-heart.png" type="image/x-icon">
-        <title>Log-in Form</title>
-    </head>
+					<div class="txt_field">
+						<input type="password" required />
+						<label> Password </label>
+					</div>
+				</section>
 
-    <body>
-        <!-- THE HEADING -->
-        <div class="center">
-            <h1>Login</h1>
-            
-            <!-- THE INPUT BOXES -->
-            <form method="post">
+				<section id="formFooterSection">
+					<span id="forgottenLink">Forgotten Password?</span>
 
-                <div class="txt_field">
-                    <input type="text" required>
-                    <span></span>
-                    <label> Username </label>
-                </div>
+					<input type="submit" value="Login" />
 
-                <div class="txt_field">
-                    <input type="password" required>
-                    <span></span>    
-                    <label> Password </label>
-                </div>
-                
-                <div class="pass">
-                    <a href="forgotten.html">Forgotten Password?</a>
-                </div>
-                
-                <input type="submit" value="Login">
-
-                <div class="signup_link">
-                    Not a member? <a href="signup-page.html">Sign up today!</a>
-                </div>
-
-            </form>
-        </div>
-    </body>
-
+					<div class="extraOption">
+						Not a member?
+						<span class="signUpBtn">Sign up</span>
+					</div>
+				</section>
+			</form>
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>
