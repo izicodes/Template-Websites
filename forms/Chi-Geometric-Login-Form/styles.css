@@ -37,10 +37,10 @@ body {
     width: 50%;
     height: 100%;
     background: rgba(255, 255, 255, 0.09);
-    /* transform: skewX(-26deg);
-    transform-origin: bottom left; */
     border-radius: 10px;
     pointer-events: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .form img {
@@ -108,8 +108,15 @@ body {
     cursor: pointer;
 }
 
+.submit-btn:hover {
+    background: #c83c66;
+}
+
 .forgot-pw {
     color: inherit;
+}
+.forgot-pw:hover {
+    color: #fb6693;
 }
 
 #forgot-pw {
