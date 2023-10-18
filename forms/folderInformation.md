@@ -7,3 +7,9 @@ This folder contains all of the login / sign-up pages I have created in the past
 > The blog post I made about this project : [link to post](https://xiacodes.tumblr.com/post/731346404864327680/revamp-old-webpages-1)
 
 ## Beta - Peach Brown Login Form - [🌐 LINK 🌐](https://xiacodes.github.io/Template-Websites/forms/Beta-Peach-Brown-Login-Form/index.html)
+![image](https://github.com/xiacodes/Template-Websites/assets/113255772/04811929-d3d6-4c1f-8af3-367484a21e4d)
+> The blog post I made about this project : [link to post](https://xiacodes.tumblr.com/post/731435557393252352/revamp-old-webpages-2)
+
+## Chi - Gemomteric Login Form - [🌐 LINK 🌐](https://xiacodes.github.io/Template-Websites/forms/Chi-Gemomteric-Login-Form/index.html)
+![image](https://github.com/xiacodes/Template-Websites/assets/113255772/20a8b866-6692-4472-afe4-2c4b46cd3b7f)
+> The blog post I made about this project : [link to post](https://xiacodes.tumblr.com/post/731435557393252352/revamp-old-webpages-2)
